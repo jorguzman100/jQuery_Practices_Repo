@@ -1,0 +1,99 @@
+section {
+  background: #ccffe6;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+}
+
+button,
+input {
+  background: #59e125;
+  color: black;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+p,
+a {
+  font-size: 1.5em;
+}
+
+label,
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  width: 200px;
+  height: 60px;
+  font-size: 1.5em;
+}
+
+/* 4. Using jQuery add the previous set of elements on the stack to the current set. */
+.border {
+  border: 2px solid #360e9b;
+}
+.background {
+  background: #cdc8b1;
+}
+.left,
+.right {
+  width: 40%;
+  float: left;
+}
+.right {
+  margin-left: 2%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* 5. Using jQuery add the class " w3r_font_color " to the last paragraph element. */
+.w3r_font_color {
+  color: blue;
+}
+.w3r_background {
+  background: yellow;
+  color: dark;
+}
+
+/* 20. Using jQuery animates a div's left property with a relative value. */
+.div20 {
+  /* position: absolute; */
+  background-color: #b0e0e6;
+  left: 40px;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+
+/* 21. Using jQuery animates the first div's left property and synchronizes the remaining divs. */
+.div21 {
+  position: relative;
+  background-color: #b0e0e6;
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin: 5px;
+}
+.sec21 {
+  padding-bottom: 70px;
+}
+
+/* 22. Using jQuery change the color of any div that is animated. */
+.div22 {
+  background: #b0e0e6;
+  border: 1px solid #e30ae8;
+  width: 20px;
+  height: 30px;
+  margin: 0 5px;
+  float: left;
+}
+.div22.colored {
+  background: #000000;
+}
